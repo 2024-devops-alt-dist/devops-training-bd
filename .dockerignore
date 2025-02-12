@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript compilation output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Git files
+.git/
+.gitignore
+
+# Log files
+*.log
+npm-debug.log*
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Client-side files
+client/node_modules/
+client/dist/
+
+# Server-side files
+server/node_modules/
+server/dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

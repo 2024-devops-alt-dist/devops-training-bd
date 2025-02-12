@@ -1,0 +1,8 @@
+### Test current server time
+GET http://localhost:3000/server/time HTTP/1.1
+
+### Test greeting endpoint
+GET http://localhost:3000/hello/Boris 
+
+# run server from root
+# npx ts-node server/src/index.ts

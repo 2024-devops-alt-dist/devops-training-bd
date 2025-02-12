@@ -1,0 +1,24 @@
+version: "3.8"
+services:
+  server:
+    build: ./server
+    ports:
+      - "2023:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./server:/usr/src/app
+      - /usr/src/app/node_modules
+    command: npm start
+
+  client:
+    build: ./client
+    ports:
+      - "1992:5173"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./client:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - server
