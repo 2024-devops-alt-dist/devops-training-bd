@@ -75,13 +75,13 @@ The React application features:
 1. **Clone the repository**
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/2024-devops-alt-dist/devops-training-bd.git
    ```
 
 2. **Navigate to project directory**
 
    ```sh
-   cd TP-Docker-app-fullstack
+   cd devops-training-bd
    ```
 
 3. **Build and start containers**
